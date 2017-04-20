@@ -7,8 +7,16 @@ h1 {
     font-size: 1em;
 }
 
-#logo-column {
-    /* text-align: right; */
+a:link {
+    color: #FF0B48;
+}
+
+a:visited {
+    color: #FF0B48;
+}
+
+a:hover {
+    color: #FF0B48;
 }
 
 #logo-container {
@@ -30,6 +38,7 @@ h1 {
 
 @media (min-width: 992px) {
     #logo-container {
+        margin-top: 1em;
         margin-right: 3em;
         text-align: right;
     }
@@ -39,7 +48,6 @@ h1 {
         margin-top: 0em;
     }
 }
-
 
 #big-logo {
     height: 100px;
@@ -75,10 +83,6 @@ h1 {
     background-color: #ce1541;
 }
 
-/* .install-button-wrap a { */
-
-/* } */
-
 #title {
     font-family: Open Sans, sans-serif;
 }
@@ -87,4 +91,8 @@ h1 {
     font-family: Open Sans, sans-serif;
     margin-top: 1em;
     color: #626262;
+}
+
+#fine-print {
+    margin-top: 2em;
 }
