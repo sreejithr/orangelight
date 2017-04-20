@@ -1,0 +1,90 @@
+.header-section {
+    margin: 6em;
+    align-items: center;
+}
+
+h1 {
+    font-size: 1em;
+}
+
+#logo-column {
+    /* text-align: right; */
+}
+
+#logo-container {
+    margin-right: 3em;
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    #logo-container {
+        margin-right: 0em;
+        text-align: center;
+    }
+
+    #screenshot-column {
+        text-align: center;
+        margin-top: 3em;
+    }
+}
+
+@media (min-width: 992px) {
+    #logo-container {
+        margin-right: 3em;
+        text-align: right;
+    }
+
+    #screenshot-column {
+        text-align: start;
+        margin-top: 0em;
+    }
+}
+
+
+#big-logo {
+    height: 100px;
+    width: 100px;
+}
+
+#main-screenshot {
+    height: 443px;
+    width: 259px;
+    -webkit-box-shadow: 0px 17px 22px -5px rgba(217,214,217,1);
+    -moz-box-shadow: 0px 17px 22px -5px rgba(217,214,217,1);
+    box-shadow: 0px 17px 22px -5px rgba(217,214,217,1);
+}
+
+#install-button-wrap {
+    margin-top: 3em;
+}
+
+#install-button {
+    border-radius: 4px;
+    font-size: 1.2em;
+    padding: 0.5em 3em;
+    color: white;
+    font-family: Open Sans, sans-serif;
+    background-color: #FF0B48;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 13px 22px -5px rgba(217,214,217,1);
+    -moz-box-shadow: 0px 13px 22px -5px rgba(217,214,217,1);
+    box-shadow: 0px 13px 22px -5px rgba(217,214,217,1);
+}
+
+#install-button:hover {
+    background-color: #ce1541;
+}
+
+/* .install-button-wrap a { */
+
+/* } */
+
+#title {
+    font-family: Open Sans, sans-serif;
+}
+
+#subtitle {
+    font-family: Open Sans, sans-serif;
+    margin-top: 1em;
+    color: #626262;
+}

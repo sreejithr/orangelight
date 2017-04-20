@@ -1,0 +1,21 @@
+{
+  "name": "orangelight-home",
+  "authors": [
+    "Sreejith R <sreejith.r44@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "http://orangelight.in",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
